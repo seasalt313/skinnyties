@@ -10,21 +10,28 @@ html {
   background-color: #FA6938;
   color: white;
   width: 100%;
+  font-size: 11px;
+  padding-left: 90px;
 }
 
 header {
   display: flex;
 }
 
+.header_div {
+display: inline-flex;
+}
+
 .shadow {
   background-color: #C7532C;
   padding: 6px;
-  padding-left: 90px;
-  display: inherit;
+  margin-left: 0;
+
 }
 
 h4 {
   margin: 4px 20px;
+  padding: 6px;
 }
 
 /*nav styling*/
@@ -32,7 +39,7 @@ h4 {
 .nav {
   display: flex;
   padding-left: 90px;
-  width: 100%;
+  /*width: 100%;*/
   border-bottom: 1px dashed grey;
 }
 
@@ -41,15 +48,13 @@ h4 {
   display: flex;
 }
 
-.logo {
-  width: 10%;
-  height: 80%;
-  background-color: grey;
-}
 
 .nav_links {
   display: inline-flex;
-  width: 10%;
+  width: 8%;
+  height: 100%;
+  padding: 6% 3% 0 3%;
+  font-size: 1.8em;
 }
 
 h2 {
@@ -60,13 +65,18 @@ h2 {
 
 
 .hang_right {
-  justify-content: right;
   display: flex;
   width: 100%;
-  margin: auto;
-
 }
 
+.cart, .search {
+  padding: 10px;
+  width: 40%
+  /*margin: 1px;*/
+
+} input {
+  padding: 10px;
+}
 
 /*banner styling*/
 
@@ -98,6 +108,10 @@ h2 {
 
 /*main styling*/
 
+.main, .action {
+  padding: 0 90px 0 90px;
+}
+
 .three {
   display: flex;
   list-style: none;
@@ -114,6 +128,86 @@ h2 {
   width: 100%;
 }
 
+.tagline {
+  text-align: center;
+  display: block;
+  margin-bottom: 75px;
+  font-size: 2.2em;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.tagline a {
+  color: #1782e0;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.story {
+  margin-top: 10px;
+}
+
+/*call to action area above footer*/
+
+.action {
+  display: flex;
+  list-style: none;
+  border-top: 1px dashed grey;
+}
+
+.action p {
+  display: inline-flex;
+  margin: 0 auto;
+}
+
+#type_email {
+  width: 65%;
+  padding: 8px;
+  border: 1px solid #d8d8d8;
+  box-shadow: #f4f4f4 0 0 0 4px;
+}
+
+.sub_btn {
+  color: white;
+  background-color: #1782e0;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: .8em;
+  margin: 15px auto;
+  float: inherit;
+  border: none;
+}
+
+.part {
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.part p {
+  padding-bottom: 20px;
+}
+
+.title {
+  font-weight: 900;
+}
+
+/*note: not able to style, and using caption instead of the classname doesnt work with styling this. */
+/*.caption {
+  color: #1782e0;
+  text-decoration: none;
+}*/
+
+.action div {
+  width: 25%;
+}
+
+.action img {
+  width: 100%;
+}
+
 /*footer styling*/
 
 .footer {
@@ -122,9 +216,8 @@ h2 {
   display: flex;
   border-top: 1px grey dashed;
   width: 100%;
-
-
 }
+
 .section {
   display: inline-block;
   margin-left: 40px;
@@ -133,16 +226,29 @@ h2 {
 
 footer {
   display: flex;
+  font-size: .7em;
+  padding-left: 90px;
+
 }
 
 .footer ul {
   color: #3A3A3A;
   display: inline-block;
-  width: 10%;
   padding-left: 0;
 }
 
 .footer li {
   color: #B4B4B4;
   list-style: none;
+
+}
+
+.rights_section {
+  display: flex;
+  align-content: flex-end;
+}
+
+.rights {
+  width: 100%;
+  font-size: .5em;
 }
