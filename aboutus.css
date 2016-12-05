@@ -1,0 +1,93 @@
+/*grey banner - " our story"*/
+.story {
+  background-color: #a2afc0;
+  color: white;
+  font-size: 2.8em;
+  padding: 0 90px;
+  font-weight: lighter;
+  margin: 0 auto;
+  padding: 45px 45px 45px 90px;
+  display: flex;
+
+}
+
+.story h1 {
+  /*margin: 0 auto;*/
+  width: 100%;
+}
+
+/*Content of page styling: */
+
+.content {
+  padding: 90px;
+  width: 80%;
+}
+
+/*First Large Paragraph on page*/
+
+.large {
+  font-size: 2.4em;
+  font-weight: lighter;
+  width: 100%;
+}
+
+.content p {
+  font-size: 1em;
+  width: 68%;
+
+}
+
+/*info paragrapsh*/
+
+
+.info {
+  width: 100%;
+  /*margin: 0 auto;*/
+  display: flex;
+  flex: auto;
+}
+
+.info_blocks {
+  display: block;
+  width: 80%;
+  /*margin: 0 auto;*/
+}
+
+/*list items*/
+.stuff {
+  margin: 0 auto 70px;
+  border-top: 1px solid #e0e0e0;
+  /*width: 100%;*/
+}
+
+
+.hollywood {
+  display: flex;
+  padding-left: 90px;
+  width: 80%;
+}
+
+
+
+.hollywood .title {
+font-size: 28px;
+}
+.hollywood title {
+  font-size: 34;
+  text-align: left;
+}
+
+.lists {
+  padding-left: 90px;
+  font-size: 16px;
+} li {
+  font-weight: lighter;
+}
+
+
+span {
+  font-weight: bold;
+  /*padding-bottom: 0px;*/
+  margin-bottom: 4px;
+  font-size: 18px;
+}

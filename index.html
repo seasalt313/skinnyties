@@ -2,8 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tie Store</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Assn: SkinnyTie.com</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="aboutus.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
 
   </head>
@@ -26,7 +28,7 @@
 <section class="nav">
 <div class="nav_div">
     <div class="logo">
-    <img src="/Users/mariamqasim/Desktop/tiy/tiestore/images/logo-stack@2x.png" alt="logo">
+    <img src="images/logo-stack@2x.png" alt="logo">
   </div>
 
   <div class="nav_links">
@@ -37,8 +39,15 @@
     <h2>Pattern</h2>
 
     <div class="hang_right">
+      <div class="account">
+        <a href="#">SIGN IN</a>
+        <a href="#">REGISTER</a>
+      </div>
       <div class="cart">
-        <input type="text" name="cart" placeholder="cart">
+        <p class="cart_icon">
+        </p>
+        <input type="text" name="cart" placeholder="Cart">
+        <p class="number"></p>
       </div>
 
       <div class="search">
@@ -57,15 +66,15 @@
 <!-- banner image -->
 <section class="banner">
   <div class="banner_area">
-    <li><img src="/Users/mariamqasim/desktop/tiy/tiestore/images/black@1.5x.jpg" alt="black">Black</li>
-    <li><img src="/Users/mariamqasim/desktop/tiy/tiestore/images/blue@1.5x.jpg" alt="blue">Blue</li>
-    <li><img src="/Users/mariamqasim/desktop/tiy/tiestore/images/collegiate@1.5x.jpg" alt="collegiate">Collegiate</li>
-    <li><img src="/Users/mariamqasim/desktop/tiy/tiestore/images/cotton@1.5x.jpg" alt="Cotton">Cotton</li>
-    <li><img src="/Users/mariamqasim/desktop/tiy/tiestore/images/favorites@1.5x.jpg" alt="Favorites">Favorites</li>
-    <li><img src="/Users/mariamqasim/desktop/tiy/tiestore/images/graphic@1.5x.jpg" alt="Graphic">Graphic</li>
-    <li><img src="/Users/mariamqasim/desktop/tiy/tiestore/images/plaid@1.5x.jpg" alt="Plaid">Plaid</li>
-    <li><img src="/Users/mariamqasim/desktop/tiy/tiestore/images/silk@1.5x.jpg" alt="Silk">Silk</li>
-    <li><img src="/Users/mariamqasim/desktop/tiy/tiestore/images/striped@1.5x.jpg" alt="Striped">Striped</li>
+    <li><img src="images/black@1.5x.jpg" alt="black">Black</li>
+    <li><img src="images/blue@1.5x.jpg" alt="blue">Blue</li>
+    <li><img src="images/collegiate@1.5x.jpg" alt="collegiate">Collegiate</li>
+    <li><img src="images/cotton@1.5x.jpg" alt="Cotton">Cotton</li>
+    <li><img src="images/favorites@1.5x.jpg" alt="Favorites">Favorites</li>
+    <li><img src="images/graphic@1.5x.jpg" alt="Graphic">Graphic</li>
+    <li><img src="images/plaid@1.5x.jpg" alt="Plaid">Plaid</li>
+    <li><img src="images/silk@1.5x.jpg" alt="Silk">Silk</li>
+    <li><img src="images/striped@1.5x.jpg" alt="Striped">Striped</li>
   </div>
 
   <div class="banner_caption">
@@ -78,14 +87,19 @@
 <!-- main area of page, with out about us section -->
 <section class="main">
   <div class="three">
-    <li><img src="/Users/mariamqasim/desktop/tiy/tiestore/images/bow-ties@1.5x.jpg" alt="bowties"></li>
-    <li><img src="/Users/mariamqasim/desktop/tiy/tiestore/images/pocket-squares@1.5x.jpg" alt="pocketsquares"></li>
-    <li><img src="/Users/mariamqasim/desktop/tiy/tiestore/images/tie-bars@1.5x.jpg" alt="tiebars"></li>
+    <li><img src="images/bow-ties@1.5x.jpg" alt="bowties"></li>
+    <p>Bowties</p>
+    <li><img src="images/pocket-squares@1.5x.jpg" alt="pocketsquares"></li>
+    <p>Pocket Squares</p>
+    <li><img src="images/tie-bars@1.5x.jpg" alt="tiebars"></li>
+    <p>Tie Bars</p>
   </div>
+
+  <!-- correct way to do the top would be either option 1) make three containers, make image in background and then words inside of them. Making 3 list items i probably incorrect.  -->
 
     <div class="tagline">
       <p>We started designing and selling neckties in 1971.<br>After 44 years we are still family owned and operated.</p>
-      <p class="story"><a href="#">View Our Story</a></p>
+      <p class="view_story"><a href="aboutus.html">View Our Story</a></p>
 
     </div>
 
@@ -121,7 +135,7 @@
   <p class="guide title">
     Style Guide
   </p>
-  <img src="/Users/mariamqasim/Desktop/tiy/tiestore/images/style-guide@1.5x.jpg" alt="styleguide">
+  <img src="images/style-guide@1.5x.jpg" alt="styleguide">
   <p>There are eighty-five ways to style knot a tie. We’ll show you the essentials.</p>
 </div>
 </section>
@@ -130,6 +144,7 @@
 
 
   <!-- footer -->
+  <div class="footer_div">
   <section class="footer">
   <footer>
     <div class="shop section">
@@ -165,15 +180,17 @@
   </div>
 
   </footer>
+</section>
 
-  <section class="rights_section">
+
+  <div class="rights_section">
     <div class="rights">
         © 2016 Skinny Ties. All rights reserved.
         Made by Gravity Department
     </div>
+  </div>
+</div>
 
-  </section>
 
-  </section>
 </body>
 </html>
